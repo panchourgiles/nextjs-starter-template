@@ -8,7 +8,7 @@
     "export": "next export",
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx .",
     "lint:fix": "yarn run lint --fix",
-    "prettier": "prettier --ignore-path '.gitignore'  --config .prettierrc --write './**/*.{js,jsx,css,md,json}'"
+    "prettier": "prettier --ignore-path '.gitignore'  --config .prettierrc --write './**/*.{js,jsx,json}'"
   },
   "dependencies": {
     "next": "9.5.5",
@@ -36,9 +36,11 @@
     }
   },
   "lint-staged": {
-    "./**/*.{js,jsx}": [
-      "prettier --config .prettierrc --write",
-      "eslint"
+    "*.+(js|jsx)": [
+      "yarn run lint"
+    ],
+    "*.+(js|jsx|json)": [
+      "yarn run prettier"
     ]
   }
 }
