@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Title>Hello world!!!</Title>
+
       <Subtitle>With next.js + jest + styled-components</Subtitle>
     </>
   );
