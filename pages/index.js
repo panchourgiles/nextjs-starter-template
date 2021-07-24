@@ -7,13 +7,20 @@ export default function Home() {
         <Box px={2}>
           <Box textAlign={'center'}>
             <Heading as="h1">Hello world!!!</Heading>
-            <Text my={3}>With next.js + jest + styled components + rebass</Text>
+            <Text my={3}>
+              With next.js + jest + styled components + rebass theme
+            </Text>
           </Box>
           <Box>
             <Button variant="primary" mr={2}>
-              Primary button
+              Primary
             </Button>
-            <Button variant="secondary">Secondary button</Button>
+            <Button variant="secondary" mr={2}>
+              Secondary
+            </Button>
+            <Button variant="outline" mr={2}>
+              Outline
+            </Button>
           </Box>
         </Box>
       </Flex>
