@@ -5,7 +5,6 @@ const theme = {
     blue: '#07c',
     lightgray: '#f6f6ff'
   },
-  text: {},
   heading: {
     color: 'primary',
     my: 2
