@@ -1,10 +1,10 @@
+import { ChakraProvider } from '@chakra-ui/react';
 import theme from '@styles/theme';
 import { render } from '@testing-library/react';
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
 
 const AllTheProviders = ({ children }) => {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+  return <ChakraProvider theme={theme}>{children}</ChakraProvider>;
 };
 
 const customRender = (ui, options) =>
