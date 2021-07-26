@@ -1,6 +1,6 @@
 const theme = {
   colors: {
-    primary: 'indianRed',
+    primary: 'salmon',
     secondary: 'salmon',
     blue: '#07c',
     lightgray: '#f6f6ff'
@@ -17,6 +17,20 @@ const theme = {
     secondary: {
       color: 'white',
       bg: 'secondary'
+    }
+  },
+  forms: {
+    input: {
+      color: 'primary'
+    },
+    select: {
+      borderRadius: 9999
+    },
+    textarea: {},
+    label: {},
+    radio: {},
+    checkbox: {
+      color: '#cc00cc'
     }
   }
 };

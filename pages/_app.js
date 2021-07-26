@@ -1,3 +1,4 @@
+// import preset from '@rebass/preset';
 import GlobalStyle from '@styles/globalStyle';
 import theme from '@styles/theme';
 import { ThemeProvider } from 'styled-components';
